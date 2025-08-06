@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps Lifecycle Diagram</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .circle-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .stage {
+      border-radius: 50%;
+      width: 160px;
+      height: 160px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .stage h3 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .stage p {
+      font-size: 12px;
+      margin-top: 8px;
+    }
+
+    .plan       { background-color: #6f42c1; }
+    .develop    { background-color: #007bff; }
+    .build      { background-color: #20c997; }
+    .test       { background-color: #fd7e14; }
+    .release    { background-color: #e83e8c; }
+    .deploy     { background-color: #17a2b8; }
+    .operate    { background-color: #28a745; }
+    .monitor    { background-color: #dc3545; }
+
+  </style>
+</head>
+<body>
+  <h1>DevOps Lifecycle For</h1>
+  <h1>FoodMood App!!</h1>
+  <div class="circle-container">
+    <div class="stage plan">
+      <h3>Plan</h3>
+      <p>Define goals, strategies, and gather requirements for development.</p>
+    </div>
+    <div class="stage develop">
+      <h3>Develop</h3>
+      <p>Write, review, and manage source code collaboratively.</p>
+    </div>
+    <div class="stage build">
+      <h3>Build</h3>
+      <p>Transform code into executable artifacts using build tools.</p>
+    </div>
+    <div class="stage test">
+      <h3>Test</h3>
+      <p>Run automated/manual tests to validate software quality.</p>
+    </div>
+    <div class="stage release">
+      <h3>Release</h3>
+      <p>Approve and version the build for production deployment.</p>
+    </div>
+    <div class="stage deploy">
+      <h3>Deploy</h3>
+      <p>Push changes to production environments, often automatically.</p>
+    </div>
+    <div class="stage operate">
+      <h3>Operate</h3>
+      <p>Manage infrastructure, ensure uptime, and handle configuration.</p>
+    </div>
+    <div class="stage monitor">
+      <h3>Monitor</h3>
+      <p>Track system metrics, detect issues, and gather user feedback.</p>
+    </div>
+    <br>
+    <br>
+
+   
+  </div>
+   <div style="margin-top: 50px;">
+    <h2>FoodMood App DevOps Lifecycle Diagram</h2>
+    <img src="foodmood-lifecycle.drawio.png" width="500" height="500" alt="FoodMood DevOps Lifecycle">
+  </div>
+</body>
+</html>
